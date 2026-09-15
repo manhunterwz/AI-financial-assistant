@@ -106,7 +106,7 @@ Once the backend is running, interactive API documentation (Swagger UI) is avail
 
 ## Authors ✍️
 
-*   [Your Name/Team] - Final Year Project
+*   Waageez.N - Final Year Project
 
 ## License 📄
 
