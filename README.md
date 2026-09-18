@@ -1,109 +1,113 @@
-# AI Financial Assistant — ML Backend
+# AI Financial Assistant 🤖💰
 
-This is the machine-learning half of the project: real, trained models for
-the two "AI" jobs that benefit from statistical learning rather than an LLM
-call — **expense categorization** and **spending forecasting**. The chat/
-advice part of the assistant is handled separately by an LLM (see the
-web app's explanation) since that's an open-ended language task, not a
-classification/regression one.
+An intelligent financial assistant powered by AI, designed to help users manage their personal finances, analyze spending patterns, detect anomalies, and chat with their financial data using generative AI.
 
-## Project structure
+## Features ✨
 
+*   **Expense Tracking & Categorization:** Automatically categorize transactions using Machine Learning (Random Forest).
+*   **Anomaly Detection:** Identify unusual spending patterns or potential fraud using Isolation Forests.
+*   **Interactive Dashboard:** A rich, intuitive UI built with Streamlit for data visualization and management.
+*   **Chat with Data:** Natural language querying of financial data powered by Google's Gemini LLM.
+*   **RESTful API:** Robust backend powered by FastAPI for seamless data flow.
+
+## Tech Stack 🛠️
+
+| Component | Technology |
+| :--- | :--- |
+| **Backend** | FastAPI, Python 3.11+ |
+| **Frontend** | Streamlit |
+| **Database** | SQLite, SQLAlchemy |
+| **Machine Learning** | Scikit-learn, Pandas, NumPy |
+| **LLM Integration**| Google Generative AI (Gemini) |
+| **Data Viz** | Plotly |
+
+## Prerequisites 📝
+
+Before you begin, ensure you have the following installed on your system:
+*   [Python 3.11+](https://www.python.org/downloads/)
+*   [Git](https://git-scm.com/)
+
+## Quick Start 🚀 (Windows)
+
+The easiest way to get started is by using the provided batch scripts.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository_url>
+    cd ai-financial-assistant
+    ```
+
+2.  **Run the Setup Script:**
+    Double-click on `setup.bat` or run it from the command line:
+    ```bash
+    setup.bat
+    ```
+    This script will automatically check for Python, create a virtual environment (`.venv`), install all dependencies from `requirements.txt`, create necessary directories, and populate the database with initial seed data.
+
+3.  **Start the Services:**
+    Double-click on `run.bat` or run it from the command line:
+    ```bash
+    run.bat
+    ```
+    This script will launch both the FastAPI backend and the Streamlit frontend in separate terminal windows.
+
+## Manual Setup ⚙️
+
+If you prefer to set up the project manually or are on a non-Windows OS:
+
+1.  Create a virtual environment:
+    ```bash
+    python -m venv .venv
+    ```
+2.  Activate the virtual environment:
+    *   Windows: `.venv\Scripts\activate`
+    *   macOS/Linux: `source .venv/bin/activate`
+3.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  Run the backend:
+    ```bash
+    uvicorn backend.main:app --reload
+    ```
+5.  Run the frontend (in a new terminal, with venv activated):
+    ```bash
+    streamlit run frontend/app.py
+    ```
+
+## Project Structure 📁
+
+```text
+.
+├── backend/            # FastAPI application
+├── frontend/           # Streamlit application
+├── data/               # SQLite database & static files
+├── models/             # Saved ML models (.pkl)
+├── docs/               # Project documentation & reports
+├── requirements.txt    # Project dependencies
+├── setup.bat           # Windows setup script
+├── run.bat             # Windows run script
+└── README.md           # This file
 ```
-ai_financial_backend/
-├── data/
-│   └── transactions_sample.csv   # synthetic sample transaction history
-├── generate_data.py              # (re)generates the sample dataset
-├── train_categorizer.py          # trains + evaluates the categorizer
-├── forecaster.py                 # monthly spend forecasting model
-├── app.py                        # Flask REST API serving both models
-├── categorizer_model.pkl         # trained model (created by training script)
-├── confusion_matrix.png          # evaluation output
-├── forecast_plot.png             # forecast output
-├── metrics.txt                   # accuracy + classification report
-└── requirements.txt
-```
 
-## 1. Expense categorizer
+## Screenshots 📸
 
-**Problem:** given free-text like `"Swiggy order"` or `"Uber ride"`, predict
-which of 8 categories it belongs to (Food, Transport, Shopping, Bills &
-Utilities, Entertainment, Health, Education, Other).
+*(Coming soon in Phase 7)*
 
-**Model:** `TfidfVectorizer` (unigrams + bigrams) → `MultinomialNB`.
+## ML Models 🧠
 
-Why this and not something heavier (BERT, an LLM call, etc.):
-- Transaction descriptions are short and keyword-driven ("swiggy", "uber",
-  "netflix" are near-perfect category signals) — a bag-of-words model
-  captures almost all the useful signal.
-- Naive Bayes needs very little training data and trains in milliseconds,
-  which matters when the model may need retraining as a user's own
-  transaction history grows.
-- It's a **generative, probabilistic** model — you can explain a prediction
-  in one sentence ("the word 'hospital' has high likelihood under Health"),
-  which is much easier to defend in a viva than a black-box deep model.
+*   **Categorizer Model:** A Random Forest classifier trained to categorize transactions based on description and amount.
+*   **Anomaly Detector:** An Isolation Forest model used to flag unusually high or out-of-character spending.
 
-**Measured performance** (80/20 train/test split, stratified by category):
-overall accuracy **93.2%** (see `metrics.txt` and `confusion_matrix.png`
-for the full per-class precision/recall — the one notable confusion in
-testing was "hospital bill" leaning towards Bills & Utilities instead of
-Health, which is a reasonable ambiguity to raise as a discussion point).
+## API Documentation 📚
 
-Run it:
-```bash
-python train_categorizer.py
-```
+Once the backend is running, interactive API documentation (Swagger UI) is available at:
+`http://localhost:8000/docs`
 
-## 2. Spending forecaster
+## Authors ✍️
 
-**Problem:** predict next month's total spend, and next month's spend per
-category, from historical monthly totals.
+*   [Your Name/Team] - Final Year Project
 
-**Model:** ordinary least-squares **Linear Regression** of
-`monthly_total ~ month_index`, fit separately overall and per category.
+## License 📄
 
-Why a straight-line trend and not ARIMA/Prophet/LSTM: with only a few
-months of history, a simple trend model generalizes better and won't
-overfit noise the way a more complex time-series model would. The code is
-structured so `forecast_next_month()` is the only function a more advanced
-model would need to replace once there's a year+ of real transaction data
-to train on — that's a natural "future work" line for your report.
-
-Run it:
-```bash
-python forecaster.py
-```
-
-## 3. Serving both as an API
-
-```bash
-pip install -r requirements.txt
-python generate_data.py        # (already generated once, re-run any time)
-python train_categorizer.py    # produces categorizer_model.pkl
-python app.py                  # starts the API on http://localhost:5000
-```
-
-Endpoints:
-| Method | Path                 | Body                              | Returns                                   |
-|--------|----------------------|------------------------------------|--------------------------------------------|
-| GET    | `/api/health`         | —                                   | `{"status": "ok"}`                          |
-| POST   | `/api/categorize`     | `{"description": "Swiggy order"}`   | `{"category": "Food", "confidence": 0.87}`  |
-| GET    | `/api/forecast`       | —                                   | next-month total + per-category + history   |
-
-Tested manually with `curl` — all three endpoints return correct results
-against the sample dataset.
-
-## How this fits the full project
-
-The React web app (the interactive demo) is the part your evaluators will
-actually click through. Inside Claude.ai's artifact sandbox it can't keep a
-Flask process running in the background, so the demo approximates these two
-models client-side (a small keyword-rule categorizer, a least-squares trend
-computed in JS) and uses a real LLM call for the open-ended advice chat.
-**This folder is the real version of those two models** — if you deploy the
-React app outside Claude (e.g. on Vercel/Netlify + this Flask API on
-Render/Railway), you'd swap the two client-side approximations for real
-`fetch()` calls to `/api/categorize` and `/api/forecast`, and nothing else
-about the UI needs to change. That mapping — "here's the simplified version
-running live, here's the real trained model behind it" — is exactly the
-kind of thing worth walking through in a viva.
+This project is licensed under the MIT License.
