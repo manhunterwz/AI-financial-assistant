@@ -1,0 +1,16 @@
+Test accuracy: 0.932
+
+                   precision    recall  f1-score   support
+
+Bills & Utilities       0.83      1.00      0.91         5
+        Education       1.00      0.80      0.89         5
+    Entertainment       0.78      1.00      0.88         7
+             Food       1.00      1.00      1.00         5
+           Health       1.00      0.83      0.91         6
+            Other       1.00      1.00      1.00         6
+         Shopping       1.00      0.67      0.80         3
+        Transport       1.00      1.00      1.00         7
+
+         accuracy                           0.93        44
+        macro avg       0.95      0.91      0.92        44
+     weighted avg       0.95      0.93      0.93        44

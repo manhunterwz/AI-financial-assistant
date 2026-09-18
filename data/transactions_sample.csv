@@ -1,0 +1,249 @@
+date,description,amount,type,category
+2026-03-20,College semester fees,1400.63,expense,Education
+2026-03-20,Netflix subscription,879.66,expense,Entertainment
+2026-03-21,Biryani order,379.52,expense,Food
+2026-03-22,Hotstar subscription,1046.86,expense,Entertainment
+2026-03-23,Mobile recharge - Airtel,880.26,expense,Bills & Utilities
+2026-03-24,Biryani order,332.29,expense,Food
+2026-03-26,Myntra clothes,4424.87,expense,Shopping
+2026-03-26,Exam registration fee,4869.34,expense,Education
+2026-03-27,Cab to airport,650.23,expense,Transport
+2026-03-28,Campus canteen lunch,116.62,expense,Food
+2026-03-30,Photocopy and binding,206.86,expense,Other
+2026-03-31,Gym membership,2158.03,expense,Health
+2026-03-31,Train ticket booking,1249.14,expense,Transport
+2026-03-31,Gift money - birthday,11857.62,income,Income
+2026-04-02,Health insurance premium,1321.64,expense,Health
+2026-04-02,Miscellaneous expense,1815.41,expense,Other
+2026-04-02,Photocopy and binding,714.38,expense,Other
+2026-04-03,Water bill,2130.7,expense,Bills & Utilities
+2026-04-04,Biryani order,678.02,expense,Food
+2026-04-04,Printing and Xerox,4592.17,expense,Education
+2026-04-05,Bowling with friends,225.5,expense,Entertainment
+2026-04-06,Ola cab,1105.9,expense,Transport
+2026-04-06,Movie tickets - PVR,1126.59,expense,Entertainment
+2026-04-06,Grocery - BigBasket,248.35,expense,Food
+2026-04-07,Bowling with friends,447.79,expense,Entertainment
+2026-04-08,Salon haircut,1755.25,expense,Other
+2026-04-08,Lab equipment purchase,176.39,expense,Education
+2026-04-09,Amazon purchase,4809.78,expense,Shopping
+2026-04-14,Hotstar subscription,756.47,expense,Entertainment
+2026-04-16,Amazon purchase,4479.4,expense,Shopping
+2026-04-16,Auto fare,1448.14,expense,Transport
+2026-04-17,Bank service charge,1523.78,expense,Other
+2026-04-18,Udemy course purchase,1875.14,expense,Education
+2026-04-19,Spotify premium,1193.31,expense,Entertainment
+2026-04-20,Dental checkup,2040.65,expense,Health
+2026-04-20,ATM cash withdrawal,1136.94,expense,Other
+2026-04-21,Textbook purchase,6739.99,expense,Education
+2026-04-21,Biryani order,188.0,expense,Food
+2026-04-21,Netflix subscription,878.82,expense,Entertainment
+2026-04-21,Scholarship credit,14507.54,income,Income
+2026-04-23,Spotify premium,1132.82,expense,Entertainment
+2026-04-23,Zomato order,599.91,expense,Food
+2026-04-23,Internship stipend,11448.1,income,Income
+2026-04-24,Gym membership,2992.38,expense,Health
+2026-04-25,Mobile recharge - Airtel,2284.77,expense,Bills & Utilities
+2026-04-26,Amazon Prime subscription,987.22,expense,Entertainment
+2026-04-26,Part-time tutoring payment,7395.01,income,Income
+2026-04-27,Gift money - birthday,12490.47,income,Income
+2026-04-28,Hotstar subscription,769.87,expense,Entertainment
+2026-04-28,Bank service charge,1313.03,expense,Other
+2026-04-28,Gift money - birthday,10166.94,income,Income
+2026-04-29,Doctor consultation fee,986.48,expense,Health
+2026-04-29,Lab equipment purchase,3622.72,expense,Education
+2026-05-01,Miscellaneous expense,1545.45,expense,Other
+2026-05-02,Spotify premium,770.04,expense,Entertainment
+2026-05-02,Laundry service,1261.99,expense,Bills & Utilities
+2026-05-04,DTH recharge,684.59,expense,Bills & Utilities
+2026-05-07,Train ticket booking,1352.27,expense,Transport
+2026-05-07,Hotstar subscription,111.17,expense,Entertainment
+2026-05-10,Swiggy order,857.67,expense,Food
+2026-05-11,Diagnostic lab test,1334.96,expense,Health
+2026-05-11,Photocopy and binding,1531.98,expense,Other
+2026-05-12,Hospital visit,1205.02,expense,Health
+2026-05-12,Shoes - Decathlon,1516.52,expense,Shopping
+2026-05-12,Pharmacy - medicines,2711.94,expense,Health
+2026-05-13,Stationery shopping,2505.36,expense,Shopping
+2026-05-14,Donation,420.3,expense,Other
+2026-05-14,Bank service charge,1149.74,expense,Other
+2026-05-15,ATM cash withdrawal,231.45,expense,Other
+2026-05-17,Protein supplement,2488.53,expense,Health
+2026-05-18,DTH recharge,2465.27,expense,Bills & Utilities
+2026-05-18,Miscellaneous expense,647.91,expense,Other
+2026-05-18,Bowling with friends,178.3,expense,Entertainment
+2026-05-18,Part-time tutoring payment,9005.17,income,Income
+2026-05-19,Zomato order,838.15,expense,Food
+2026-05-19,Textbook purchase,7413.53,expense,Education
+2026-05-19,Doctor consultation fee,2482.51,expense,Health
+2026-05-20,Hotstar subscription,633.06,expense,Entertainment
+2026-05-21,Uber ride,1120.08,expense,Transport
+2026-05-21,Gas cylinder booking,1311.79,expense,Bills & Utilities
+2026-05-21,Printing and Xerox,2646.21,expense,Education
+2026-05-21,Metro card recharge,1326.0,expense,Transport
+2026-05-22,Donation,566.52,expense,Other
+2026-05-22,Photocopy and binding,555.42,expense,Other
+2026-05-23,Dinner with friends,133.97,expense,Food
+2026-05-25,Pharmacy - medicines,478.72,expense,Health
+2026-05-26,ATM cash withdrawal,1909.94,expense,Other
+2026-05-26,Gym membership,2109.37,expense,Health
+2026-05-26,Electronics - USB cable,4818.29,expense,Shopping
+2026-05-26,Petrol - bike,949.51,expense,Transport
+2026-05-26,Monthly allowance from home,7572.87,income,Income
+2026-05-28,Mobile recharge - Airtel,1236.31,expense,Bills & Utilities
+2026-05-30,Coaching class fees,3648.75,expense,Education
+2026-05-30,Doctor consultation fee,1615.34,expense,Health
+2026-05-30,Donation,872.67,expense,Other
+2026-05-30,Protein supplement,2613.41,expense,Health
+2026-05-31,Freelance project payment,12487.69,income,Income
+2026-06-01,Bowling with friends,185.23,expense,Entertainment
+2026-06-01,Miscellaneous expense,113.65,expense,Other
+2026-06-01,Hotstar subscription,244.11,expense,Entertainment
+2026-06-02,Scholarship credit,14057.14,income,Income
+2026-06-03,Train ticket booking,145.84,expense,Transport
+2026-06-05,Mobile recharge - Jio,1788.4,expense,Bills & Utilities
+2026-06-06,Bus pass,1321.72,expense,Transport
+2026-06-06,Stationery shopping,768.11,expense,Shopping
+2026-06-06,Uber ride,273.91,expense,Transport
+2026-06-08,Protein supplement,732.14,expense,Health
+2026-06-12,Internship stipend,14514.95,income,Income
+2026-06-14,Movie tickets - PVR,336.85,expense,Entertainment
+2026-06-14,Petrol - bike,360.31,expense,Transport
+2026-06-14,Uber ride,621.85,expense,Transport
+2026-06-14,Gym membership,1445.89,expense,Health
+2026-06-15,Dominos pizza,646.44,expense,Food
+2026-06-16,Zomato order,561.12,expense,Food
+2026-06-16,Cab to airport,1180.47,expense,Transport
+2026-06-16,Diagnostic lab test,1727.4,expense,Health
+2026-06-18,Hospital visit,1539.52,expense,Health
+2026-06-19,Ola cab,588.49,expense,Transport
+2026-06-20,College semester fees,1581.9,expense,Education
+2026-06-22,Home decor items,324.74,expense,Shopping
+2026-06-24,Chai and snacks,543.67,expense,Food
+2026-06-25,New headphones,2189.16,expense,Shopping
+2026-06-25,Donation,148.06,expense,Other
+2026-06-25,Coaching class fees,6227.98,expense,Education
+2026-06-26,Auto fare,251.72,expense,Transport
+2026-06-29,Gym membership,2018.0,expense,Health
+2026-06-29,Freelance project payment,9725.63,income,Income
+2026-06-30,Electricity bill,2041.86,expense,Bills & Utilities
+2026-06-30,YouTube Premium,1087.61,expense,Entertainment
+2026-06-30,Electricity bill,1701.08,expense,Bills & Utilities
+2026-06-30,Miscellaneous expense,1342.04,expense,Other
+2026-07-01,Electronics - USB cable,2910.16,expense,Shopping
+2026-07-01,Doctor consultation fee,2915.03,expense,Health
+2026-07-02,Salon haircut,1580.01,expense,Other
+2026-07-02,Hotstar subscription,440.21,expense,Entertainment
+2026-07-02,New headphones,461.51,expense,Shopping
+2026-07-02,Monthly allowance from home,11114.21,income,Income
+2026-07-03,Mobile phone cover,3944.57,expense,Shopping
+2026-07-04,Internship stipend,10875.76,income,Income
+2026-07-04,Gift money - birthday,1977.34,income,Income
+2026-07-05,Electricity bill,1605.55,expense,Bills & Utilities
+2026-07-05,Protein supplement,2297.4,expense,Health
+2026-07-05,Printing and Xerox,6040.88,expense,Education
+2026-07-06,Myntra clothes,3991.58,expense,Shopping
+2026-07-08,Mobile recharge - Jio,377.79,expense,Bills & Utilities
+2026-07-08,Chai and snacks,301.01,expense,Food
+2026-07-09,Maintenance charges,665.64,expense,Bills & Utilities
+2026-07-10,Water bill,819.72,expense,Bills & Utilities
+2026-07-10,Gift money - birthday,2405.1,income,Income
+2026-07-13,Diagnostic lab test,2713.9,expense,Health
+2026-07-13,Auto fare,33.93,expense,Transport
+2026-07-14,Printing and Xerox,7419.49,expense,Education
+2026-07-14,Gift money - birthday,8608.02,income,Income
+2026-07-14,Monthly allowance from home,8363.32,income,Income
+2026-07-15,Protein supplement,2450.32,expense,Health
+2026-07-15,Wifi bill - ACT Fibernet,2068.98,expense,Bills & Utilities
+2026-07-16,Bakery - birthday cake,790.27,expense,Food
+2026-07-17,Train ticket booking,590.98,expense,Transport
+2026-07-17,Hotstar subscription,952.11,expense,Entertainment
+2026-07-18,Train ticket booking,1312.09,expense,Transport
+2026-07-18,Uber ride,873.87,expense,Transport
+2026-07-18,Library fine,7755.54,expense,Education
+2026-07-18,Gift money - birthday,7754.99,income,Income
+2026-07-19,Swiggy order,265.67,expense,Food
+2026-07-20,Pharmacy - medicines,292.91,expense,Health
+2026-07-21,New headphones,1199.47,expense,Shopping
+2026-07-23,Pharmacy - medicines,2571.29,expense,Health
+2026-07-23,Petrol - bike,1088.51,expense,Transport
+2026-07-23,Maintenance charges,1667.87,expense,Bills & Utilities
+2026-07-23,Movie tickets - PVR,801.66,expense,Entertainment
+2026-07-23,Internship stipend,14984.63,income,Income
+2026-07-24,Mobile repair,705.97,expense,Other
+2026-07-26,YouTube Premium,1136.94,expense,Entertainment
+2026-07-27,Ola cab,820.32,expense,Transport
+2026-07-27,Diagnostic lab test,1896.06,expense,Health
+2026-07-27,Freelance project payment,14079.48,income,Income
+2026-07-28,Health insurance premium,1877.7,expense,Health
+2026-07-31,Donation,899.2,expense,Other
+2026-08-02,Hospital visit,1687.23,expense,Health
+2026-08-04,Petrol - bike,311.64,expense,Transport
+2026-08-04,Health insurance premium,2086.63,expense,Health
+2026-08-04,Petrol - bike,493.86,expense,Transport
+2026-08-04,Gift money - birthday,3080.34,income,Income
+2026-08-05,DTH recharge,939.24,expense,Bills & Utilities
+2026-08-05,Spotify premium,617.34,expense,Entertainment
+2026-08-06,Amazon Prime subscription,567.65,expense,Entertainment
+2026-08-07,Myntra clothes,3349.79,expense,Shopping
+2026-08-08,Hotstar subscription,108.61,expense,Entertainment
+2026-08-08,Spotify premium,1078.68,expense,Entertainment
+2026-08-08,Movie tickets - PVR,915.35,expense,Entertainment
+2026-08-08,Health insurance premium,2137.04,expense,Health
+2026-08-08,Netflix subscription,1171.72,expense,Entertainment
+2026-08-08,Auto fare,382.6,expense,Transport
+2026-08-08,Scholarship credit,5831.74,income,Income
+2026-08-09,YouTube Premium,866.25,expense,Entertainment
+2026-08-10,Mobile recharge - Jio,981.14,expense,Bills & Utilities
+2026-08-11,Dinner with friends,581.77,expense,Food
+2026-08-11,Dominos pizza,185.33,expense,Food
+2026-08-12,Spotify premium,332.08,expense,Entertainment
+2026-08-12,Electricity bill,716.05,expense,Bills & Utilities
+2026-08-12,Gas cylinder booking,431.73,expense,Bills & Utilities
+2026-08-13,Salon haircut,1101.51,expense,Other
+2026-08-14,Petrol - bike,1444.01,expense,Transport
+2026-08-14,Bakery - birthday cake,749.99,expense,Food
+2026-08-15,Coaching class fees,2519.03,expense,Education
+2026-08-16,Online certification - Coursera,7248.22,expense,Education
+2026-08-16,Miscellaneous expense,403.9,expense,Other
+2026-08-17,Biryani order,525.29,expense,Food
+2026-08-17,Photocopy and binding,629.84,expense,Other
+2026-08-17,Cashback credited,5179.78,income,Income
+2026-08-19,Concert ticket,407.62,expense,Entertainment
+2026-08-20,Scholarship credit,3668.55,income,Income
+2026-08-21,Petrol - bike,372.01,expense,Transport
+2026-08-22,Shoes - Decathlon,2709.22,expense,Shopping
+2026-08-27,Home decor items,4576.25,expense,Shopping
+2026-08-28,Electricity bill,316.83,expense,Bills & Utilities
+2026-08-28,Rapido bike ride,639.23,expense,Transport
+2026-08-28,Library fine,685.25,expense,Education
+2026-08-28,Photocopy and binding,286.78,expense,Other
+2026-08-29,Train ticket booking,438.62,expense,Transport
+2026-08-29,Metro card recharge,787.71,expense,Transport
+2026-08-29,Train ticket booking,1442.36,expense,Transport
+2026-08-30,Grocery - BigBasket,707.74,expense,Food
+2026-08-31,Parking fee,1133.79,expense,Transport
+2026-09-01,Exam registration fee,644.76,expense,Education
+2026-09-02,Starbucks coffee,227.02,expense,Food
+2026-09-02,SIM card purchase,240.92,expense,Other
+2026-09-02,Dominos pizza,455.22,expense,Food
+2026-09-05,Grocery - local store,557.19,expense,Food
+2026-09-05,Gift money - birthday,6337.24,income,Income
+2026-09-06,Water bill,1163.55,expense,Bills & Utilities
+2026-09-06,Donation,1612.76,expense,Other
+2026-09-07,DTH recharge,1087.63,expense,Bills & Utilities
+2026-09-07,DTH recharge,1080.1,expense,Bills & Utilities
+2026-09-07,ATM cash withdrawal,808.27,expense,Other
+2026-09-07,Health insurance premium,1099.93,expense,Health
+2026-09-08,Flipkart order,3035.92,expense,Shopping
+2026-09-08,Diagnostic lab test,1409.09,expense,Health
+2026-09-09,Mobile recharge - Airtel,1880.71,expense,Bills & Utilities
+2026-09-12,Coaching class fees,7438.42,expense,Education
+2026-09-12,Coaching class fees,700.37,expense,Education
+2026-09-12,Bowling with friends,236.79,expense,Entertainment
+2026-09-13,Auto fare,514.81,expense,Transport
+2026-09-14,Coaching class fees,1489.5,expense,Education
+2026-09-14,Freelance project payment,13174.42,income,Income
+2026-09-15,DTH recharge,524.11,expense,Bills & Utilities
+2026-09-15,Lab equipment purchase,2713.25,expense,Education
+2026-09-16,Freelance project payment,11425.87,income,Income
