@@ -1,0 +1,102 @@
+﻿/* Custom CSS for AI Financial Assistant - Deep Navy & Emerald/Rose Theme */
+body {
+    background-color: #0c0f1a;
+    color: #f1f5f9;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.stApp {
+    background-color: #0c0f1a;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #080b14;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+[data-testid="stSidebar"] * {
+    color: #f1f5f9 !important;
+}
+
+/* Card surfaces */
+div[data-testid="stMetric"], .stCard, div[data-testid="stExpander"] {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 1rem;
+}
+
+div[data-testid="stMetric"]:hover, .stCard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Form inputs */
+input, select, textarea, div[data-testid="stSelectbox"] div, div[data-testid="stDateInput"] div, div[data-testid="stNumberInput"] div, div[data-testid="stTextInput"] div {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 8px !important;
+    color: #f1f5f9 !important;
+}
+
+input:focus, select:focus, textarea:focus, div[data-testid="stSelectbox"] div:focus-within, div[data-testid="stDateInput"] div:focus-within, div[data-testid="stNumberInput"] div:focus-within, div[data-testid="stTextInput"] div:focus-within {
+    border-color: #10b981 !important;
+    box-shadow: 0 0 0 1px #10b981 !important;
+}
+
+/* Buttons */
+button[kind="primary"], .stButton > button {
+    background: linear-gradient(135deg, #10b981, #059669);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+button[kind="primary"]:hover, .stButton > button:hover {
+    opacity: 0.9;
+    border: none;
+    color: white;
+}
+
+/* Chat messages */
+[data-testid="chatAvatarIcon-user"] {
+    background-color: #3b82f6;
+}
+[data-testid="chatAvatarIcon-assistant"] {
+    background-color: #10b981;
+}
+
+[data-testid="stChatMessage"] {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Custom classes */
+.positive-metric {
+    color: #10b981 !important;
+}
+.negative-metric {
+    color: #f43f5e !important;
+}
+.neutral-metric {
+    color: #3b82f6 !important;
+}
+
+/* Dataframe header styling */
+th {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    color: #94a3b8 !important;
+    font-weight: 600 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+td {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.04) !important;
+}

@@ -1,11 +1,20 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-from backend.database import Transaction
+from backend.database import Transaction, Loan, User
 
 def get_analytics_summary(db: Session, user_id: int):
     income = db.query(func.sum(Transaction.amount)).filter(Transaction.user_id == user_id, Transaction.type == 'income').scalar() or 0.0
     expenses = db.query(func.sum(Transaction.amount)).filter(Transaction.user_id == user_id, Transaction.type == 'expense').scalar() or 0.0
     
+    total_fixed_expenses = db.query(func.sum(Transaction.amount)).filter(Transaction.user_id == user_id, Transaction.type == 'expense', Transaction.is_fixed_expense == True).scalar() or 0.0
+    total_variable_expenses = db.query(func.sum(Transaction.amount)).filter(Transaction.user_id == user_id, Transaction.type == 'expense', Transaction.is_fixed_expense == False).scalar() or 0.0
+
+    user = db.query(User).filter(User.id == user_id).first()
+    monthly_income = user.monthly_income if (user and user.monthly_income > 0) else (income if income > 0 else 1.0)
+    
+    total_emi = db.query(func.sum(Loan.emi_amount)).filter(Loan.user_id == user_id).scalar() or 0.0
+    dti_ratio = (total_emi / monthly_income) * 100
+
     savings = income - expenses
     savings_rate = (savings / income) * 100 if income > 0 else 0.0
     
@@ -30,6 +39,9 @@ def get_analytics_summary(db: Session, user_id: int):
     return {
         "total_income": float(income),
         "total_expenses": float(expenses),
+        "total_fixed_expenses": float(total_fixed_expenses),
+        "total_variable_expenses": float(total_variable_expenses),
+        "dti_ratio": float(dti_ratio),
         "savings": float(savings),
         "savings_rate": float(savings_rate),
         "top_categories": top_categories,

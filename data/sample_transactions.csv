@@ -1,0 +1,437 @@
+date,description,category,type,amount
+2026-03-01,Monthly Salary,Salary,income,65000.0
+2026-03-01,Vegetables from market,Groceries,expense,1905.57
+2026-03-01,Vegetables from market,Groceries,expense,415.5
+2026-03-01,Metro recharge,Transport,expense,116.14
+2026-03-02,Lab tests,Healthcare,expense,1779.62
+2026-03-02,Electricity bill,Utilities,expense,660.98
+2026-03-02,Doctor visit,Healthcare,expense,245.41
+2026-03-02,Udemy course,Education,expense,4811.74
+2026-03-03,Haircut,Personal Care,expense,1045.3
+2026-03-03,Auto rickshaw,Transport,expense,326.27
+2026-03-03,Ola ride,Transport,expense,593.57
+2026-03-04,Ola ride,Transport,expense,220.89
+2026-03-04,Uber to office,Transport,expense,256.0
+2026-03-04,BigBasket order,Groceries,expense,1756.41
+2026-03-04,Zomato delivery,Food & Dining,expense,390.4
+2026-03-04,Metro recharge,Transport,expense,700.3
+2026-03-05,Monthly Rent,Rent,expense,12000.0
+2026-03-05,Petrol,Transport,expense,128.86
+2026-03-05,Dinner at restaurant,Food & Dining,expense,568.59
+2026-03-05,Swiggy order,Food & Dining,expense,1068.1
+2026-03-05,Train tickets,Travel,expense,14065.63
+2026-03-06,Zomato delivery,Food & Dining,expense,1114.87
+2026-03-06,Phone recharge,Utilities,expense,1337.96
+2026-03-06,Wedding gift,Gifts & Donations,expense,2471.83
+2026-03-08,Amazon Prime,Subscriptions,expense,339.05
+2026-03-09,Chai and snacks,Food & Dining,expense,1980.09
+2026-03-09,BigBasket order,Groceries,expense,2061.69
+2026-03-10,Uber to office,Transport,expense,214.38
+2026-03-11,Milk and bread,Groceries,expense,435.08
+2026-03-11,Uber to office,Transport,expense,84.56
+2026-03-12,Coffee at Starbucks,Food & Dining,expense,409.04
+2026-03-12,BigBasket order,Groceries,expense,1588.57
+2026-03-12,Reliance Digital,Shopping,expense,2233.18
+2026-03-13,Chai and snacks,Food & Dining,expense,1780.9
+2026-03-13,Coffee at Starbucks,Food & Dining,expense,249.72
+2026-03-15,Amazon Prime,Subscriptions,expense,384.56
+2026-03-15,Movie tickets,Entertainment,expense,296.26
+2026-03-17,Petrol,Transport,expense,701.77
+2026-03-18,Uber to office,Transport,expense,207.19
+2026-03-18,Netflix subscription,Entertainment,expense,237.07
+2026-03-18,Milk and bread,Groceries,expense,657.33
+2026-03-18,Reliance Digital,Shopping,expense,835.1
+2026-03-18,Ola ride,Transport,expense,692.8
+2026-03-19,Coffee at Starbucks,Food & Dining,expense,1765.1
+2026-03-19,Dinner at restaurant,Food & Dining,expense,914.02
+2026-03-19,Amazon Prime,Subscriptions,expense,996.49
+2026-03-19,Haircut,Personal Care,expense,444.7
+2026-03-20,Metro recharge,Transport,expense,183.16
+2026-03-21,Ola ride,Transport,expense,75.33
+2026-03-22,Amazon order,Shopping,expense,3336.59
+2026-03-22,Coffee at Starbucks,Food & Dining,expense,533.01
+2026-03-22,Pharmacy,Healthcare,expense,2183.38
+2026-03-22,Swiggy order,Food & Dining,expense,716.14
+2026-03-22,Freelance project,Freelance,income,6553.8
+2026-03-22,Metro recharge,Transport,expense,711.29
+2026-03-22,Skincare products,Personal Care,expense,917.14
+2026-03-22,Petrol,Transport,expense,530.41
+2026-03-23,Chai and snacks,Food & Dining,expense,1879.64
+2026-03-23,D-Mart groceries,Groceries,expense,1172.01
+2026-03-24,Auto rickshaw,Transport,expense,232.81
+2026-03-25,Ola ride,Transport,expense,740.27
+2026-03-25,Uber to office,Transport,expense,592.05
+2026-03-26,Coffee at Starbucks,Food & Dining,expense,699.36
+2026-03-26,Amazon order,Shopping,expense,2153.89
+2026-03-26,Movie tickets,Entertainment,expense,1306.34
+2026-03-26,Internet bill,Utilities,expense,2398.36
+2026-03-28,Coffee at Starbucks,Food & Dining,expense,291.9
+2026-03-28,Zomato delivery,Food & Dining,expense,787.11
+2026-03-28,Gaming,Entertainment,expense,1392.57
+2026-04-01,Monthly Salary,Salary,income,65000.0
+2026-04-01,Term insurance,Insurance,expense,4618.22
+2026-04-01,Coffee at Starbucks,Food & Dining,expense,335.11
+2026-04-01,Gaming,Entertainment,expense,228.4
+2026-04-01,Lunch at office canteen,Food & Dining,expense,197.2
+2026-04-01,Vegetables from market,Groceries,expense,1015.54
+2026-04-02,Internet bill,Utilities,expense,974.86
+2026-04-02,Doctor visit,Healthcare,expense,3149.72
+2026-04-02,Lunch at office canteen,Food & Dining,expense,321.26
+2026-04-03,iCloud storage,Subscriptions,expense,664.53
+2026-04-03,Vegetables from market,Groceries,expense,2492.3
+2026-04-03,Chai and snacks,Food & Dining,expense,1013.56
+2026-04-05,Monthly Rent,Rent,expense,12000.0
+2026-04-05,Vegetables from market,Groceries,expense,867.72
+2026-04-06,Auto rickshaw,Transport,expense,681.62
+2026-04-06,D-Mart groceries,Groceries,expense,1988.8
+2026-04-07,Lab tests,Healthcare,expense,2660.45
+2026-04-07,Lunch at office canteen,Food & Dining,expense,1734.09
+2026-04-08,Ola ride,Transport,expense,773.27
+2026-04-08,Zomato delivery,Food & Dining,expense,1447.23
+2026-04-10,Chai and snacks,Food & Dining,expense,1116.71
+2026-04-10,BigBasket order,Groceries,expense,1090.63
+2026-04-11,Reliance Digital,Shopping,expense,2944.76
+2026-04-11,Dinner at restaurant,Food & Dining,expense,975.61
+2026-04-11,Ola ride,Transport,expense,753.51
+2026-04-11,Phone recharge,Utilities,expense,2448.02
+2026-04-11,Chai and snacks,Food & Dining,expense,1348.2
+2026-04-12,Vegetables from market,Groceries,expense,1616.76
+2026-04-13,Swiggy order,Food & Dining,expense,1198.13
+2026-04-13,Reliance Digital,Shopping,expense,4511.38
+2026-04-13,Zomato delivery,Food & Dining,expense,1456.25
+2026-04-13,Swiggy order,Food & Dining,expense,759.88
+2026-04-13,Gaming,Entertainment,expense,1169.55
+2026-04-14,Electricity bill,Utilities,expense,951.68
+2026-04-14,Dinner at restaurant,Food & Dining,expense,1672.59
+2026-04-14,Amazon order,Shopping,expense,2172.96
+2026-04-15,Luxury Watch,Shopping,expense,15000.0
+2026-04-15,Metro recharge,Transport,expense,94.15
+2026-04-15,Auto rickshaw,Transport,expense,526.83
+2026-04-15,Zomato delivery,Food & Dining,expense,987.11
+2026-04-15,Auto rickshaw,Transport,expense,571.24
+2026-04-15,Uber to office,Transport,expense,241.06
+2026-04-16,Spotify premium,Entertainment,expense,147.67
+2026-04-17,Dinner at restaurant,Food & Dining,expense,1951.52
+2026-04-18,Donation,Gifts & Donations,expense,2549.09
+2026-04-18,Flipkart purchase,Shopping,expense,4241.34
+2026-04-18,Gaming,Entertainment,expense,144.64
+2026-04-18,Uber to office,Transport,expense,392.02
+2026-04-19,Amazon order,Shopping,expense,2127.12
+2026-04-19,YouTube Premium,Subscriptions,expense,745.09
+2026-04-19,Swiggy order,Food & Dining,expense,484.21
+2026-04-20,Interest,Other Income,income,4232.8
+2026-04-21,Chai and snacks,Food & Dining,expense,1121.26
+2026-04-22,Coffee at Starbucks,Food & Dining,expense,1367.72
+2026-04-22,BigBasket order,Groceries,expense,812.61
+2026-04-22,Udemy course,Education,expense,786.52
+2026-04-22,D-Mart groceries,Groceries,expense,1741.68
+2026-04-23,Flipkart purchase,Shopping,expense,980.14
+2026-04-23,Lunch at office canteen,Food & Dining,expense,871.04
+2026-04-23,Zomato delivery,Food & Dining,expense,694.83
+2026-04-23,Freelance project,Freelance,income,7294.87
+2026-04-23,Swiggy order,Food & Dining,expense,320.65
+2026-04-24,Coffee at Starbucks,Food & Dining,expense,1442.9
+2026-04-24,Milk and bread,Groceries,expense,1277.03
+2026-04-25,Skincare products,Personal Care,expense,1309.37
+2026-04-25,Coursera subscription,Education,expense,2069.23
+2026-04-25,iCloud storage,Subscriptions,expense,390.0
+2026-04-25,Petrol,Transport,expense,660.25
+2026-04-25,Pharmacy,Healthcare,expense,3019.93
+2026-04-25,Ola ride,Transport,expense,727.17
+2026-04-26,Zomato delivery,Food & Dining,expense,1843.29
+2026-04-26,Chai and snacks,Food & Dining,expense,1573.24
+2026-04-28,Zomato delivery,Food & Dining,expense,1571.44
+2026-04-28,Milk and bread,Groceries,expense,332.68
+2026-04-28,Vegetables from market,Groceries,expense,602.44
+2026-04-28,Vegetables from market,Groceries,expense,1191.4
+2026-05-01,Monthly Salary,Salary,income,65000.0
+2026-05-01,Auto rickshaw,Transport,expense,590.04
+2026-05-02,Lunch at office canteen,Food & Dining,expense,637.68
+2026-05-02,Flipkart purchase,Shopping,expense,1294.79
+2026-05-03,Netflix subscription,Entertainment,expense,456.04
+2026-05-03,Milk and bread,Groceries,expense,964.42
+2026-05-04,Skincare products,Personal Care,expense,919.96
+2026-05-04,Chai and snacks,Food & Dining,expense,1662.62
+2026-05-04,Lunch at office canteen,Food & Dining,expense,1276.37
+2026-05-04,Metro recharge,Transport,expense,429.99
+2026-05-05,Lunch at office canteen,Food & Dining,expense,1443.15
+2026-05-05,Monthly Rent,Rent,expense,12000.0
+2026-05-05,Dinner at restaurant,Food & Dining,expense,421.82
+2026-05-05,Swiggy order,Food & Dining,expense,683.31
+2026-05-05,Movie tickets,Entertainment,expense,700.72
+2026-05-06,Cashback,Other Income,income,3776.0
+2026-05-06,Zomato delivery,Food & Dining,expense,1263.66
+2026-05-06,Petrol,Transport,expense,431.51
+2026-05-07,Dinner at restaurant,Food & Dining,expense,998.54
+2026-05-07,Milk and bread,Groceries,expense,436.6
+2026-05-08,Coffee at Starbucks,Food & Dining,expense,864.24
+2026-05-08,Term insurance,Insurance,expense,4385.77
+2026-05-08,Milk and bread,Groceries,expense,1967.24
+2026-05-08,Myntra clothing,Shopping,expense,3967.65
+2026-05-08,Auto rickshaw,Transport,expense,847.74
+2026-05-09,Vegetables from market,Groceries,expense,995.76
+2026-05-09,D-Mart groceries,Groceries,expense,1081.06
+2026-05-09,Chai and snacks,Food & Dining,expense,1756.56
+2026-05-11,iCloud storage,Subscriptions,expense,953.82
+2026-05-11,YouTube Premium,Subscriptions,expense,727.03
+2026-05-11,Internet bill,Utilities,expense,3097.49
+2026-05-11,Petrol,Transport,expense,131.19
+2026-05-13,Dinner at restaurant,Food & Dining,expense,1137.75
+2026-05-13,Internet bill,Utilities,expense,1622.46
+2026-05-14,Haircut,Personal Care,expense,1451.24
+2026-05-14,Gaming,Entertainment,expense,1395.47
+2026-05-14,Auto rickshaw,Transport,expense,655.15
+2026-05-14,D-Mart groceries,Groceries,expense,2741.48
+2026-05-14,Metro recharge,Transport,expense,620.54
+2026-05-14,Ola ride,Transport,expense,315.31
+2026-05-15,Dinner at restaurant,Food & Dining,expense,731.47
+2026-05-17,Petrol,Transport,expense,490.36
+2026-05-17,Reliance Digital,Shopping,expense,2130.2
+2026-05-18,Internet bill,Utilities,expense,1711.77
+2026-05-19,Doctor visit,Healthcare,expense,1331.68
+2026-05-19,Petrol,Transport,expense,402.19
+2026-05-19,Lunch at office canteen,Food & Dining,expense,704.27
+2026-05-19,Haircut,Personal Care,expense,621.27
+2026-05-20,Chai and snacks,Food & Dining,expense,235.88
+2026-05-20,Fine dining anniversary,Food & Dining,expense,8000.0
+2026-05-20,Dinner at restaurant,Food & Dining,expense,581.69
+2026-05-20,Swiggy order,Food & Dining,expense,701.47
+2026-05-20,Auto rickshaw,Transport,expense,667.37
+2026-05-21,Chai and snacks,Food & Dining,expense,551.04
+2026-05-22,Auto rickshaw,Transport,expense,728.74
+2026-05-22,Milk and bread,Groceries,expense,1691.34
+2026-05-23,Coffee at Starbucks,Food & Dining,expense,1351.07
+2026-05-23,Lunch at office canteen,Food & Dining,expense,700.88
+2026-05-23,Books,Education,expense,5042.91
+2026-05-23,Amazon order,Shopping,expense,2779.28
+2026-05-23,YouTube Premium,Subscriptions,expense,988.56
+2026-05-24,Chai and snacks,Food & Dining,expense,1121.98
+2026-05-24,Phone recharge,Utilities,expense,1139.55
+2026-05-25,Petrol,Transport,expense,498.93
+2026-05-25,Milk and bread,Groceries,expense,1395.71
+2026-05-27,Ola ride,Transport,expense,153.47
+2026-05-27,D-Mart groceries,Groceries,expense,2069.5
+2026-05-27,Udemy course,Education,expense,3662.66
+2026-05-27,Spotify premium,Entertainment,expense,347.12
+2026-05-27,D-Mart groceries,Groceries,expense,2584.59
+2026-05-28,Milk and bread,Groceries,expense,1042.29
+2026-06-01,Monthly Salary,Salary,income,65000.0
+2026-06-01,Uber to office,Transport,expense,280.03
+2026-06-01,Milk and bread,Groceries,expense,2607.61
+2026-06-02,Lunch at office canteen,Food & Dining,expense,790.02
+2026-06-02,Lunch at office canteen,Food & Dining,expense,780.04
+2026-06-02,Petrol,Transport,expense,918.75
+2026-06-02,Spotify premium,Entertainment,expense,1059.21
+2026-06-03,Amazon Prime,Subscriptions,expense,1029.26
+2026-06-03,Metro recharge,Transport,expense,456.22
+2026-06-03,Spotify premium,Entertainment,expense,810.32
+2026-06-04,Flipkart purchase,Shopping,expense,4937.42
+2026-06-04,Myntra clothing,Shopping,expense,1955.27
+2026-06-04,Chai and snacks,Food & Dining,expense,1108.71
+2026-06-05,Reliance Digital,Shopping,expense,4021.25
+2026-06-05,Chai and snacks,Food & Dining,expense,2049.63
+2026-06-05,Monthly Rent,Rent,expense,12000.0
+2026-06-05,D-Mart groceries,Groceries,expense,844.14
+2026-06-06,Dinner at restaurant,Food & Dining,expense,553.74
+2026-06-07,Milk and bread,Groceries,expense,2873.34
+2026-06-07,Petrol,Transport,expense,891.85
+2026-06-07,Phone recharge,Utilities,expense,728.23
+2026-06-07,Freelance project,Freelance,income,16324.15
+2026-06-07,Uber to office,Transport,expense,427.12
+2026-06-08,Auto rickshaw,Transport,expense,910.1
+2026-06-08,Reliance Digital,Shopping,expense,2514.25
+2026-06-08,Lab tests,Healthcare,expense,2807.08
+2026-06-08,Uber to office,Transport,expense,325.44
+2026-06-08,Dinner at restaurant,Food & Dining,expense,1145.18
+2026-06-09,Petrol,Transport,expense,80.9
+2026-06-09,Chai and snacks,Food & Dining,expense,1595.92
+2026-06-10,Internet bill,Utilities,expense,2163.32
+2026-06-10,Milk and bread,Groceries,expense,1178.14
+2026-06-10,International flight booking,Travel,expense,45000.0
+2026-06-11,Ola ride,Transport,expense,573.15
+2026-06-11,Udemy course,Education,expense,2167.65
+2026-06-12,Internet bill,Utilities,expense,2952.1
+2026-06-12,Chai and snacks,Food & Dining,expense,1370.96
+2026-06-12,YouTube Premium,Subscriptions,expense,437.54
+2026-06-12,Gaming,Entertainment,expense,1521.51
+2026-06-14,Metro recharge,Transport,expense,866.03
+2026-06-14,Vegetables from market,Groceries,expense,1726.88
+2026-06-15,Auto rickshaw,Transport,expense,480.65
+2026-06-15,Reliance Digital,Shopping,expense,3020.64
+2026-06-15,Term insurance,Insurance,expense,4194.92
+2026-06-16,Petrol,Transport,expense,665.33
+2026-06-16,Coffee at Starbucks,Food & Dining,expense,2228.73
+2026-06-16,Coffee at Starbucks,Food & Dining,expense,1934.75
+2026-06-17,Zomato delivery,Food & Dining,expense,2110.97
+2026-06-18,Lunch at office canteen,Food & Dining,expense,914.22
+2026-06-18,Milk and bread,Groceries,expense,647.85
+2026-06-18,Lunch at office canteen,Food & Dining,expense,411.43
+2026-06-19,Chai and snacks,Food & Dining,expense,947.54
+2026-06-20,Lab tests,Healthcare,expense,2366.05
+2026-06-20,Vegetables from market,Groceries,expense,2533.37
+2026-06-20,Zomato delivery,Food & Dining,expense,1867.22
+2026-06-20,Swiggy order,Food & Dining,expense,598.69
+2026-06-21,Ola ride,Transport,expense,600.77
+2026-06-21,Metro recharge,Transport,expense,552.84
+2026-06-21,D-Mart groceries,Groceries,expense,2774.57
+2026-06-22,Doctor visit,Healthcare,expense,2881.25
+2026-06-22,Metro recharge,Transport,expense,359.78
+2026-06-22,Refund,Other Income,income,3713.95
+2026-06-22,Swiggy order,Food & Dining,expense,979.84
+2026-06-22,Udemy course,Education,expense,2442.33
+2026-06-23,Lunch at office canteen,Food & Dining,expense,775.29
+2026-06-23,Lunch at office canteen,Food & Dining,expense,2181.95
+2026-06-24,Coffee at Starbucks,Food & Dining,expense,402.13
+2026-06-24,Skincare products,Personal Care,expense,969.08
+2026-06-25,Auto rickshaw,Transport,expense,525.25
+2026-06-25,Swiggy order,Food & Dining,expense,1742.1
+2026-06-26,Ola ride,Transport,expense,189.02
+2026-06-26,Swiggy order,Food & Dining,expense,366.65
+2026-06-26,Auto rickshaw,Transport,expense,732.66
+2026-06-27,Swiggy order,Food & Dining,expense,413.86
+2026-06-28,Chai and snacks,Food & Dining,expense,1592.77
+2026-06-28,Metro recharge,Transport,expense,617.96
+2026-07-01,Monthly Salary,Salary,income,65000.0
+2026-07-01,Milk and bread,Groceries,expense,1612.78
+2026-07-02,Spotify premium,Entertainment,expense,786.04
+2026-07-02,Flight booking,Travel,expense,11879.27
+2026-07-02,Flipkart purchase,Shopping,expense,2606.55
+2026-07-02,Dinner at restaurant,Food & Dining,expense,1145.39
+2026-07-03,Swiggy order,Food & Dining,expense,1115.7
+2026-07-03,Chai and snacks,Food & Dining,expense,1189.14
+2026-07-03,Petrol,Transport,expense,322.05
+2026-07-03,Uber to office,Transport,expense,574.45
+2026-07-04,Zomato delivery,Food & Dining,expense,453.89
+2026-07-04,Zomato delivery,Food & Dining,expense,1329.78
+2026-07-05,Monthly Rent,Rent,expense,12000.0
+2026-07-05,Ola ride,Transport,expense,107.3
+2026-07-05,Emergency dental procedure,Healthcare,expense,25000.0
+2026-07-05,Consulting work,Freelance,income,5665.04
+2026-07-06,Auto rickshaw,Transport,expense,804.16
+2026-07-06,Movie tickets,Entertainment,expense,578.29
+2026-07-06,Milk and bread,Groceries,expense,2451.65
+2026-07-07,Petrol,Transport,expense,351.76
+2026-07-07,D-Mart groceries,Groceries,expense,2357.88
+2026-07-08,BigBasket order,Groceries,expense,1330.93
+2026-07-08,Udemy course,Education,expense,1974.63
+2026-07-08,Electricity bill,Utilities,expense,334.71
+2026-07-08,Spotify premium,Entertainment,expense,1492.06
+2026-07-10,Reliance Digital,Shopping,expense,5801.84
+2026-07-11,Water bill,Utilities,expense,2899.04
+2026-07-11,Zomato delivery,Food & Dining,expense,625.18
+2026-07-11,Chai and snacks,Food & Dining,expense,2090.48
+2026-07-12,Reliance Digital,Shopping,expense,4147.05
+2026-07-12,Chai and snacks,Food & Dining,expense,1778.42
+2026-07-13,Metro recharge,Transport,expense,413.7
+2026-07-13,Dinner at restaurant,Food & Dining,expense,1174.98
+2026-07-13,Lunch at office canteen,Food & Dining,expense,1314.63
+2026-07-14,Skincare products,Personal Care,expense,122.63
+2026-07-14,Ola ride,Transport,expense,505.84
+2026-07-15,Electricity bill,Utilities,expense,2307.57
+2026-07-15,Coffee at Starbucks,Food & Dining,expense,205.74
+2026-07-16,Dinner at restaurant,Food & Dining,expense,1177.81
+2026-07-17,Zomato delivery,Food & Dining,expense,1311.87
+2026-07-18,D-Mart groceries,Groceries,expense,2182.13
+2026-07-18,Netflix subscription,Entertainment,expense,1689.61
+2026-07-18,Metro recharge,Transport,expense,662.82
+2026-07-18,iCloud storage,Subscriptions,expense,667.91
+2026-07-18,Lab tests,Healthcare,expense,3391.99
+2026-07-19,Dinner at restaurant,Food & Dining,expense,248.07
+2026-07-20,Zomato delivery,Food & Dining,expense,1204.43
+2026-07-20,Haircut,Personal Care,expense,1020.57
+2026-07-21,Petrol,Transport,expense,681.4
+2026-07-21,BigBasket order,Groceries,expense,1392.84
+2026-07-21,Swiggy order,Food & Dining,expense,2090.49
+2026-07-21,Zomato delivery,Food & Dining,expense,513.43
+2026-07-22,iCloud storage,Subscriptions,expense,841.67
+2026-07-22,Dinner at restaurant,Food & Dining,expense,2227.07
+2026-07-22,Auto rickshaw,Transport,expense,927.11
+2026-07-23,Cashback,Other Income,income,2914.12
+2026-07-24,BigBasket order,Groceries,expense,356.75
+2026-07-25,Swiggy order,Food & Dining,expense,1850.87
+2026-07-25,Reliance Digital,Shopping,expense,2439.59
+2026-07-25,Reliance Digital,Shopping,expense,4551.57
+2026-07-25,Auto rickshaw,Transport,expense,607.06
+2026-07-26,Myntra clothing,Shopping,expense,3722.86
+2026-07-26,Metro recharge,Transport,expense,618.94
+2026-07-26,Udemy course,Education,expense,3827.39
+2026-07-26,Coffee at Starbucks,Food & Dining,expense,2170.01
+2026-07-26,Birthday gift,Gifts & Donations,expense,964.82
+2026-07-27,Auto rickshaw,Transport,expense,718.51
+2026-07-27,Auto rickshaw,Transport,expense,154.08
+2026-07-27,Water bill,Utilities,expense,1827.45
+2026-07-28,Milk and bread,Groceries,expense,1104.05
+2026-08-01,Monthly Salary,Salary,income,65000.0
+2026-08-01,Lunch at office canteen,Food & Dining,expense,1872.23
+2026-08-02,Ola ride,Transport,expense,831.79
+2026-08-02,Petrol,Transport,expense,189.65
+2026-08-02,D-Mart groceries,Groceries,expense,1157.34
+2026-08-02,Gaming,Entertainment,expense,213.45
+2026-08-02,BigBasket order,Groceries,expense,1093.65
+2026-08-03,Coffee at Starbucks,Food & Dining,expense,2049.97
+2026-08-03,Lunch at office canteen,Food & Dining,expense,281.15
+2026-08-03,Coffee at Starbucks,Food & Dining,expense,1431.24
+2026-08-04,D-Mart groceries,Groceries,expense,480.2
+2026-08-04,Spotify premium,Entertainment,expense,879.12
+2026-08-05,Health insurance,Insurance,expense,5358.31
+2026-08-05,Chai and snacks,Food & Dining,expense,2434.4
+2026-08-05,Monthly Rent,Rent,expense,12000.0
+2026-08-05,Chai and snacks,Food & Dining,expense,284.68
+2026-08-05,Zomato delivery,Food & Dining,expense,847.3
+2026-08-05,Myntra clothing,Shopping,expense,830.87
+2026-08-05,Books,Education,expense,4531.55
+2026-08-05,Chai and snacks,Food & Dining,expense,2140.59
+2026-08-06,Wedding gift,Gifts & Donations,expense,3573.81
+2026-08-06,Chai and snacks,Food & Dining,expense,1815.55
+2026-08-07,Doctor visit,Healthcare,expense,2308.93
+2026-08-08,Swiggy order,Food & Dining,expense,2002.14
+2026-08-08,Dinner at restaurant,Food & Dining,expense,946.8
+2026-08-09,Auto rickshaw,Transport,expense,226.44
+2026-08-09,D-Mart groceries,Groceries,expense,607.87
+2026-08-09,iCloud storage,Subscriptions,expense,1212.95
+2026-08-10,Metro recharge,Transport,expense,655.34
+2026-08-10,Ola ride,Transport,expense,628.89
+2026-08-10,BigBasket order,Groceries,expense,1276.3
+2026-08-11,Amazon order,Shopping,expense,1700.43
+2026-08-11,YouTube Premium,Subscriptions,expense,883.03
+2026-08-11,Metro recharge,Transport,expense,621.41
+2026-08-12,Dinner at restaurant,Food & Dining,expense,1235.09
+2026-08-12,Swiggy order,Food & Dining,expense,1333.29
+2026-08-12,Chai and snacks,Food & Dining,expense,1070.33
+2026-08-12,Electricity bill,Utilities,expense,2186.28
+2026-08-12,Internet bill,Utilities,expense,3032.14
+2026-08-12,Swiggy order,Food & Dining,expense,1179.36
+2026-08-12,Electricity bill,Utilities,expense,408.35
+2026-08-12,Chai and snacks,Food & Dining,expense,1343.58
+2026-08-12,Sold old laptop,Other Income,income,35000.0
+2026-08-13,Movie tickets,Entertainment,expense,1009.53
+2026-08-13,Myntra clothing,Shopping,expense,1034.6
+2026-08-14,Vegetables from market,Groceries,expense,476.92
+2026-08-14,Flipkart purchase,Shopping,expense,1739.62
+2026-08-15,Spotify premium,Entertainment,expense,997.83
+2026-08-17,Skincare products,Personal Care,expense,369.62
+2026-08-17,Swiggy order,Food & Dining,expense,2287.94
+2026-08-17,Lunch at office canteen,Food & Dining,expense,1100.64
+2026-08-18,Skincare products,Personal Care,expense,982.23
+2026-08-18,Coffee at Starbucks,Food & Dining,expense,404.68
+2026-08-18,Zomato delivery,Food & Dining,expense,1644.51
+2026-08-18,BigBasket order,Groceries,expense,1611.02
+2026-08-19,Uber to office,Transport,expense,943.8
+2026-08-19,Zomato delivery,Food & Dining,expense,201.92
+2026-08-19,Flipkart purchase,Shopping,expense,4576.77
+2026-08-20,Lunch at office canteen,Food & Dining,expense,803.25
+2026-08-20,Petrol,Transport,expense,652.53
+2026-08-21,Spotify premium,Entertainment,expense,1301.91
+2026-08-22,Zomato delivery,Food & Dining,expense,1353.73
+2026-08-23,Milk and bread,Groceries,expense,1475.08
+2026-08-23,D-Mart groceries,Groceries,expense,1680.38
+2026-08-24,iCloud storage,Subscriptions,expense,1106.11
+2026-08-24,Milk and bread,Groceries,expense,1514.24
+2026-08-24,Skincare products,Personal Care,expense,1599.55
+2026-08-24,D-Mart groceries,Groceries,expense,2751.36
+2026-08-24,Metro recharge,Transport,expense,905.68
+2026-08-25,Electricity bill,Utilities,expense,2174.5
+2026-08-25,Uber to office,Transport,expense,592.64
+2026-08-26,Metro recharge,Transport,expense,696.8
+2026-08-26,Swiggy order,Food & Dining,expense,2376.27
+2026-08-28,Zomato delivery,Food & Dining,expense,300.87

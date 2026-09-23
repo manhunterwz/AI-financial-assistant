@@ -92,12 +92,14 @@ If you prefer to set up the project manually or are on a non-Windows OS:
 
 ## Screenshots 📸
 
-*(Coming soon in Phase 7)*
+*(Add screenshots of your Dashboard, Budgets, and Anomaly Detection pages here for your final report!)*
 
 ## ML Models 🧠
 
-*   **Categorizer Model:** A Random Forest classifier trained to categorize transactions based on description and amount.
+*   **Expense Categorizer:** A Random Forest classifier trained on TF-IDF vectors to auto-categorize transactions based on descriptions.
 *   **Anomaly Detector:** An Isolation Forest model used to flag unusually high or out-of-character spending.
+*   **Expense Predictor:** Linear Regression models tracking trends per category to forecast next month's spending.
+*   **Budget Recommender:** A statistical model that analyzes recent historical data to propose personalized budget limits.
 
 ## API Documentation 📚
 
@@ -106,7 +108,7 @@ Once the backend is running, interactive API documentation (Swagger UI) is avail
 
 ## Authors ✍️
 
-*   Waageez N - Final Year Project
+*   [Your Name/Team] - Final Year Project
 
 ## License 📄
 

@@ -8,6 +8,7 @@ class TransactionCreate(BaseModel):
     category: Optional[str] = None
     description: str
     transaction_date: date
+    is_fixed_expense: bool = False
 
 class TransactionResponse(BaseModel):
     id: int
@@ -17,6 +18,7 @@ class TransactionResponse(BaseModel):
     category: Optional[str] = None
     description: str
     transaction_date: date
+    is_fixed_expense: bool
     is_anomaly: bool
     anomaly_score: float
     created_at: datetime
@@ -60,6 +62,42 @@ class SavingsGoalResponse(BaseModel):
 
     model_config = ConfigDict(from_attributes=True)
 
+class InvestmentCreate(BaseModel):
+    asset_class: str
+    amount: float
+    current_value: float
+    return_rate: float
+
+class InvestmentResponse(BaseModel):
+    id: int
+    user_id: int
+    asset_class: str
+    amount: float
+    current_value: float
+    return_rate: float
+    created_at: datetime
+
+    model_config = ConfigDict(from_attributes=True)
+
+class LoanCreate(BaseModel):
+    loan_name: str
+    principal_amount: float
+    emi_amount: float
+    interest_rate: float
+    remaining_months: int
+
+class LoanResponse(BaseModel):
+    id: int
+    user_id: int
+    loan_name: str
+    principal_amount: float
+    emi_amount: float
+    interest_rate: float
+    remaining_months: int
+    created_at: datetime
+
+    model_config = ConfigDict(from_attributes=True)
+
 class UserCreate(BaseModel):
     name: str
     email: str
@@ -86,6 +124,9 @@ class ChatResponse(BaseModel):
 class AnalyticsSummary(BaseModel):
     total_income: float
     total_expenses: float
+    total_fixed_expenses: float
+    total_variable_expenses: float
+    dti_ratio: float
     savings: float
     savings_rate: float
     top_categories: List[dict]

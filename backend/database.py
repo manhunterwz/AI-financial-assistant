@@ -23,6 +23,8 @@ class User(Base):
     transactions = relationship("Transaction", back_populates="owner")
     budgets = relationship("Budget", back_populates="owner")
     savings_goals = relationship("SavingsGoal", back_populates="owner")
+    investments = relationship("Investment", back_populates="owner")
+    loans = relationship("Loan", back_populates="owner")
 
 class Transaction(Base):
     __tablename__ = "transactions"
@@ -34,6 +36,7 @@ class Transaction(Base):
     category = Column(String)
     description = Column(String)
     transaction_date = Column(Date)
+    is_fixed_expense = Column(Boolean, default=False)
     is_anomaly = Column(Boolean, default=False)
     anomaly_score = Column(Float, default=0.0)
     created_at = Column(DateTime, default=datetime.utcnow)
@@ -72,6 +75,33 @@ class SavingsGoal(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     owner = relationship("User", back_populates="savings_goals")
+
+class Investment(Base):
+    __tablename__ = "investments"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    asset_class = Column(String)
+    amount = Column(Float)
+    current_value = Column(Float)
+    return_rate = Column(Float)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    owner = relationship("User", back_populates="investments")
+
+class Loan(Base):
+    __tablename__ = "loans"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"))
+    loan_name = Column(String)
+    principal_amount = Column(Float)
+    emi_amount = Column(Float)
+    interest_rate = Column(Float)
+    remaining_months = Column(Integer)
+    created_at = Column(DateTime, default=datetime.utcnow)
+
+    owner = relationship("User", back_populates="loans")
 
 def init_db():
     Base.metadata.create_all(bind=engine)
